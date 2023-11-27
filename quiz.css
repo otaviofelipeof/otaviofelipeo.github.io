@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* que carrega uma fonte da web do Google Fonts chamada "Poppins" */
+* {
+  margin: 0;  /* Define a fonte padrão para o documento */
+  padding: 0; /*O "padding" é a área dentro do elemento, entre o conteúdo e a borda do elemento*/
+  box-sizing: border-box; /*é usada para controlar a forma como o tamanho total de um elemento é calculado*/
+  font-family: 'poppins', sans-serif; /* especifica a fonte preferida para o texto, com uma opção de fonte de fallback caso a fonte principal não esteja disponível.*/
+}
+
+body {
+  height: 100vh; /*Define a altura do elemento como 100vh*/
+  display: flex; /*é usada para definir o tipo de exibição de um elemento. */
+  align-items: center; /* é usada para controlar o alinhamento vertical dos elementos filhos dentro de um contêiner flexível.*/
+  justify-content: center; /*centraliza horizontalmente os elementos filhos. Essas propriedades ajudam a centralizar conteúdo dentro do elemento pai*/
+  flex-direction: column; /* define a direção em que os elementos flexíveis (itens dentro de um contêiner flex) serão posicionados.*/
+  gap: 5px; /*define o espaçamento entre os elementos filhos de um contêiner flex*/
+  animation: bgcolor infinite 5s; /* Aplica uma animação chamada "iniciar" aos elementos */
+}
+
+body h2 {
+  color: white; /*difine a cor do texto*/
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.5);  /*Define a cor de fundo do elemento*/
+  padding: 20px; /*O "padding" é a área dentro do elemento, entre o conteúdo e a borda do elemento*/
+  border-radius: 10px;  /*Define um raio de borda de 20 pixels para arredondar os cantos do elemento. Isso cria cantos arredondados, tornando o elemento mais estilizado.*/
+  width: 100%;  /*Define a largura do elemento como 100% da largura disponível do elemento pai. Isso faz com que o elemento ocupe toda a largura do contêiner ao qual ele pertence.*/
+  max-width: 300px; /* define a largura máxima que um elemento pode ter*/
+  min-height: 200px; /*define a altura mínima que um elemento deve ter*/
+  display: flex; /*é usada para definir o tipo de exibição de um elemento. */
+  align-items: center; /* é usada para controlar o alinhamento vertical dos elementos filhos dentro de um contêiner flexível.*/
+  justify-content: center; /*centraliza horizontalmente os elementos filhos. Essas propriedades ajudam a centralizar conteúdo dentro do elemento pai*/
+}
+.content {
+  display: flex; /*é usada para definir o tipo de exibição de um elemento. */
+  flex-direction: column; /*serve para controlar a direção em que os itens de um contêiner flex são posicionados.*/
+  width: 100%;  /*Define a largura do elemento como 100% da largura disponível do elemento pai. Isso faz com que o elemento ocupe toda a largura do contêiner ao qual ele pertence.*/
+  gap: 30px; /*define o espaçamento entre os elementos filhos de um contêiner flex*/
+}
+
+.spnQtd {
+  text-align: end; /*é usada para definir o alinhamento horizontal do texto dentro de um elemento, como um parágrafo, uma div ou um título*/
+}
+
+.answers {
+  display: flex; /*é usada para definir o tipo de exibição de um elemento. */
+  flex-direction: column; /*serve para controlar a direção em que os itens de um contêiner flex são posicionados.*/
+  gap: 10px; /*define o espaçamento entre os elementos filhos de um contêiner flex*/
+}
+
+button {
+  width: 100%;  /*Define a largura do elemento como 100% da largura disponível do elemento pai. Isso faz com que o elemento ocupe toda a largura do contêiner ao qual ele pertence.*/
+  text-align: start; /*define o alinhamento horizontal do texto em um elemento*/
+  padding: 15px; /*O "padding" é a área dentro do elemento, entre o conteúdo e a borda do elemento*/
+  border: none; /*remove todas as bordas (bordas sólidas, bordas pontilhadas etc.) de um elemento.*/
+  border-radius: 55px; /*define um raio de canto de 55 pixels para o elemento.*/
+  cursor: pointer; /*Define o cursor do mouse quando ele passa sobre o elemento.*/
+  background-color: #f35ab8; /*define a cor de fundo do elemento*/
+  color: white; /*serve para definir a cor do texto*/
+}
+
+.finish {
+  display: none; /*é usada para ocultar um elemento HTML em uma página da web*/
+  flex-direction: column; /*serve para controlar a direção em que os itens de um contêiner flex são posicionados.*/
+  gap: 10px; /*define o espaçamento entre os elementos filhos de um contêiner flex*/
+}
+
+.finish button {
+  text-align: center; /*é usada para definir o alinhamento horizontal do texto dentro de um elemento HTML.*/
+}
+
+ /* Define a animação "bgcolor" com diferentes estados-chave (keyframes) */
+@keyframes bgcolor{
+  0%{
+      background: #9c1466; /*define a cor de fundo da pagina*/
+  }
+  20%{
+      background: #8a3465; /*define a cor de fundo da pagina*/
+  }
+
+40%{
+  background: #1dccd8; /*define a cor de fundo da pagina*/
+}
+
+
+60%{
+  background: #92155c; /*define a cor de fundo da pagina*/
+}
+
+60%{
+  background: #3699b8; /*define a cor de fundo da pagina*/
+}
+
+
+
+80%{
+  background: #b61e74; /*define a cor de fundo da pagina*/
+}
+
+100%{
+  background: #48a1b1; /*define a cor de fundo da pagina*/
+}
+}

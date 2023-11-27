@@ -1,0 +1,433 @@
+body {
+	
+	width: 100%;
+	/* o width é para utilizar 100% da tela*/
+	font-family: uis-sans-serif;
+	/* font-family é a fonte que foi usada no site*/
+	margin: 0;
+	/* o margin é onde você altera o tamanho da margem*/
+	padding: 0;
+	/* o padding é onde define a distância entre o elemento e a borda*/
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #181616;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+	position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+header {
+	/* o header foi usado para que o topo permaneça de acordo com os movimentos do usuário*/
+	padding: 20px
+	/* o padding é onde define a distância entre o elemento e a borda*/
+}
+
+sinopse {
+	/*sinopse foi o nome que demos para a class*/
+	color: 23b2ee;
+	/* color é usado para definir a cor do texto*/
+}
+
+h1, h2 { 
+	/* h1 e h2 foi utilizado para deixar o texto maior, só que aqui ele está sendo usado para mudar a cor do texto*/
+	color: #333;
+		/* color é usado para definir a cor do texto*/
+}
+
+nav ul {
+	/* nav ul é para deixar os links em formato de lista*/
+	list-style-type: none;
+	/*list é o tipo de lista */
+	padding: 0;
+	/* o padding é onde define a distância entre o elemento e a borda*/
+}
+
+nav ul li {
+	/* nav ul é para deixar os links em formato de lista*/
+	display: inline;
+	/*o display é para organizar os elementos na página html*/
+	margin-right: 10px;
+	/* a margin é para definir a área da margem no lado direito do elemento*/
+}
+
+nav ul li a {
+		/* nav ul é para deixar os links em formato de lista*/
+	text-decoration: none;
+	/*text é para adicionar uma sublinhado ou é uma combinação de linhas no texto*/
+	color: #e11584;
+	/* color é usado para definir a cor do texto*/
+}
+
+main {
+/*o main usamos para define o conteúdo principal */
+	padding: 20px;
+	/* o padding é onde define a distância entre o elemento e a borda*/
+}
+
+float {
+	/* o float foi usado para posionar o texto na tela*/
+	padding: 20px;
+	/* o padding é onde define a distância entre o elemento e a borda*/
+	text-align: center;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+}
+
+/*para estilos especificos para a tabela */
+table {
+	/*table é uma tabela */
+	border-collapse: collapse;
+	/*border foi usado para definir o tamanho das bordas da tabela*/
+	width: 100%;
+	/* o width é para utilizar 100% da tela*/
+}
+
+th, td {
+	/* th e td são as linhas é as colunas da tabela*/
+	border: 1px solid #ddd;
+	/* border é o tamanho da bordar das linhas*/
+	padding: 8px;
+	/* o padding é onde define a distância entre o elemento e a borda*/
+	text-align: left;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+}
+
+body{
+	/* body é o onde o leitor irá vizualizar todo o conteúdo da página html*/
+	font-family: sans-serif;
+	/* font-family é a fonte que foi usada no site*/
+	margin: 0;
+	/* o margin é onde você altera o tamanho da margem*/
+	padding: 0;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+}
+
+header {
+	padding: 20px;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+}
+
+h1, h2 {
+	/* h1 e h2 para deixar o texto maior e modificar as cores e escolher a fonte*/
+	color: #ffffff;
+	/* color é usado para definir a cor do texto*/
+	font-family: uis-sans-serif;
+		/* font-family é a fonte que foi usada no site*/
+	font-size: 40px;
+	/*font usado para definir o tamanho do texto*/
+}
+nav ul {
+	list-style-type: none;
+	/*list é o tipo de lista */
+	padding: 0;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+}
+
+nav ul li { 
+	/* nav ul é para deixar os links em formato de lista*/
+	display: inline;
+	/*o display é para organizar os elementos na página html*/
+	margin-right: 10px;
+	/* a margin é para definir a área da margem no lado direito do elemento*/
+	font-size: 25px;
+	/*font usado para definir o tamanho do texto*/
+}
+
+nav ul li a {
+	/* nav ul a é para deixar os links como lista*/
+	text-decoration: none;
+	/*text é para adicionar uma sublinhado ou é uma combinação de linhas no texto*/
+	color: #e11584;
+	/* color é usado para definir a cor do texto*/
+}
+
+main {
+	/*o main usamos para define o conteúdo principal */
+	padding: 20px;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+}
+
+footer {
+	/* footer rodapé*/
+	background-color: pink;
+	/* background é a cor do rodapé*/
+	padding: 20px;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+	text-align: center;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+}
+
+/*para estilos especificos para a tabela */
+table {
+	/*table é uma tabela */
+	border-collapse: collapse;
+	/*border foi usado para definir o tamanho das bordas da tabela*/
+	width: 100%;
+	/* o width é para utilizar 100% da tela*/
+	
+}
+
+th, td {
+	/* th e td são as linhas é as colunas da tabela*/
+	border: 1px solid #ddd;
+	/* border é o tamanho da bordar das linhas*/
+	padding: 8px;
+	/* o padding é onde define a distância entre o elemento e a borda*/
+	text-align: left;
+	/* o text foi usado para definir o  valor e deixar o texto centralizado*/
+}
+
+#nuvem .floating-container{
+	/*o nome da imagem*/
+	position: absolute;
+	/*position é o posicionamento da imagem*/
+	z-index: -2;
+	/*z é a ordem do elemento,o -2 e porque queremos que a imagem fique atrás da imagem do carro/*/
+	width: auto;
+	/* o width é a largura da imagem */
+	height: 11vh;
+	/* height é a altura*/
+	
+	animation: moveCloud 5s linear infinite;
+     /*animation é para deixar a imagem em movimento*/
+}
+
+#nuvem:nth-child(2) {
+	/*nth foi usado para permite usa varias imgs de nuvens*/
+	top: 70px;
+	/*top é o espaço onde é para a img ficar*/
+	animation-delay: 4s;
+	/*animation é o tempo que a img vai passar*/
+}
+
+#nuvem:nth-child(3) {
+	/*nth foi usado para permite usa varias imgs de nuvens*/
+	top: 190px;
+	/*top é o espaço onde é para a img ficar*/
+	left: 450px;
+	/*left é para posicionar a img horizontal no lado esquerdo da borda*/
+	animation-delay: 8s;
+	/*animation é o tempo que a img vai passar*/
+}
+
+#nuvem:nth-child(4) {
+	/*nth foi usado para permite usa varias imgs de nuvens*/
+	top: 420px;
+	/*top é o espaço onde é para a img ficar*/
+	left: 800px;
+	/*left é para posicionar a img horizontal no lado esquerdo da borda*/
+	animation-delay: 6s;
+	/*animation é o tempo que a img vai passar*/
+}
+
+#nuvem :nth-child(5){
+	/*nth foi usado para permite usa varias imgs de nuvens*/
+	top: 310px;
+	/*top é o espaço onde é para a img ficar*/
+	left: 800px;
+	/*left é para posicionar a img horizontal no lado esquerdo da borda*/
+	animation-delay: 3s;
+	/*animation é o tempo que a img vai passar*/
+}
+	
+#nuvem :nth-child(6){
+	/*nth foi usado para permite usa varias imgs de nuvens*/
+	top: 520px;
+	/*top é o espaço onde é para a img ficar*/
+	left: 450px;
+	/*left é para posicionar a img horizontal no lado esquerdo da borda*/
+	animation: moveCloud 20s linear;
+	 /*animation é para deixar a imagem em movimento*/
+}
+	/*essa parte do css é os comandos para as imagens  da nuvens  se moverem*/
+@keyframes moveCloud {
+	/*key foi utilizado para criar a estilização da img, para poder mudar as propriedades*/
+	from{ 
+	transform: translateX(calc (100vw + -258px));
+}
+	to{
+	transform: translateX(100vw);	
+}
+background  {
+	/*background é o plano de fundo do site*/
+	z-index: -1;
+	/*z é a ordem do elemento,o -2 e porque queremos que a imagem fique atrás da imagem do carro*/
+	position: absolute;
+	/*position é o posicionamento da imagem*/
+	inset: 0;
+	/*insefoi utilizado para indicar a projeção da img*/
+	display: flex;
+	/*o display é para organizar os elementos na página html*/
+}
+
+background {
+	content: 0
+	/*content é o conteúdo do elemento*/
+	position absolute;
+	/*position é o posicionamento da imagem*/
+
+}
+carro {
+	width: 100%;
+	/* o width é para utilizar 100% da tela*/
+	height: auto;
+	/* height é a altura*/
+
+}
+
+foto {
+	display: flex;
+	/*o display é para organizar os elementos na página html*/
+	flex-direction: column;
+	width: 50%;
+	/* o width é para utilizar 100% da tela*/
+	height: 20vh;
+	/* height é a altura*/
+	overflow: hidden;
+}
+	
+
+p  {
+	color:green
+	/* color é usado para definir a cor do texto*/
+	font-style italic;
+	/*font é a fonte usada*/
+}
+	
+elenco {
+	background: #f699cd;
+	/* background é a cor de fundo */
+}	
+
+
+personagens  {
+	width: 55%;
+	/* o width é a largura da imagem */
+	
+	float: right;
+	/* o float foi usado para posionar o texto na tela*/
+}
+
+
+}
+
+.form-container {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}

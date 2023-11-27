@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css"> <!--é uma tag HTML usada para vincular um arquivo de estilo CSS a uma página da web.-->
+    <title>Formulário</title>
+</head>
+<body>
+    
+<div class="box"> <!-- Um contêiner geral para todo o formulário -->
+    <div class="img-box"> <!-- Uma área para uma imagem -->
+    <img src= imagens/barbie2.png> <!-- A imagem será exibida na área acima -->
+    </div>
+
+    <div class="form-box"> <!-- A área onde o formulário de registro está contido -->
+        <h2>Criar Conta</h2> <!-- Um título para o formulário, indicando "Criar Conta" -->
+    <ul> 
+        <p>Já é cadastrado? <a href="#"> <li><a href="login.html">Login</a></li> </a></p>  <!-- Um parágrafo que inclui um link para o processo de login -->
+        
+    </ul>
+        <form action="login.html"> <!--início do formulário com um atributo "action" (geralmente usado para especificar o URL de destino quando o formulário é enviado) -->
+            <div class="input-group"> <!-- Um grupo de entrada que contém um campo de texto e um rótulo -->
+                <label for="nome"> Nome Completo </label>  <!-- Um rótulo para um campo de entrada de "Nome Completo" -->
+                <input type="text" id="nome" placeholder="Digite seu nome completo" required> <!-- Um campo de entrada de texto para o nome completo com um espaço reservado (placeholder) e a exigência de preenchimento (required) -->
+            </div>
+    
+    <!-- Os comentários feitos acima servem para Email, Telefone, Senha e Confirmar senha, pois são os mesmos códigos -->
+            <div class="input-group">
+                <label for="email"> Email </label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+            </div>
+    
+            <div class="input-group">
+                <label for="telefone"> Telefone </label>
+                <input type="telefone" id="telefone" placeholder="Digite seu telefone" required>
+            </div>
+    
+            <div class="input-group w50">
+                <label for="senha"> Senha </label>
+                <input type="password" id="senha" placeholder="Digite sua senha" required>
+            </div>
+    
+            <div class="input-group w50">
+                <label for="confirmarsenha"> Confirmar senha </label>
+                <input type="password" id="confirmarsenha" placeholder="Confirme a senha" required>
+            </div>
+    
+            <div class="input-group"> <!-- Um grupo de entrada que contém um botão de envio -->
+                <button>Cadastrar</button> <!-- Um botão que permite ao usuário enviar o formulário para registro -->
+                    
+            </div>
+    
+    
+    
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

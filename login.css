@@ -1,0 +1,238 @@
+/* serve para importar uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    /* Estilos gerais para todo o documento HTML */
+    padding: 0; 
+    /*O "padding" é a área dentro do elemento, entre o conteúdo e a borda do elemento*/
+    margin: 0; 
+    /* Define a fonte padrão para o documento */
+    box-sizing: border-box;
+     /* ajuda a controlar o dimensionamento de elementos, incluindo bordas e preenchimento na largura total do elemento*/
+    font-family: 'Poppins', sans-serif;
+     /* especifica a fonte preferida para o texto, com uma opção de fonte de fallback caso a fonte principal não esteja disponível.*/
+    animation: iniciar 1.6s ease-out;
+     /* Aplica uma animação chamada "iniciar" aos elementos */
+    pointer-events: all;
+     /* Define como os eventos de ponteiro (como cliques) são tratados para todos os elementos */
+}
+/* Estilos para o corpo (body) da página */
+body{
+    background-position: center; 
+    /* controla a posição do plano de fundo de um elemento. Neste caso, está sendo definida como "center", o que significa que o plano de fundo será centralizado horizontalmente e verticalmente dentro do elemento.*/
+    background-repeat: no-repeat;
+     /* define se a imagem de fundo deve ser repetida quando não preencher todo o elemento. "no-repeat" indica que a imagem de fundo não deve se repetir e deve ser exibida apenas uma vez.*/
+    background-size: cover;
+     /*define como a imagem de fundo deve ser dimensionada para preencher o elemento. "cover" faz com que a imagem de fundo cubra todo o elemento*/
+    display: flex;
+     /*define o tipo de exibição do elemento. "flex" cria um contexto de layout flexível*/
+    align-items: center;
+     /*centraliza verticalmente os elementos filhos dentro do contêiner*/
+    justify-content: center;
+     /*centraliza horizontalmente os elementos filhos. Essas propriedades ajudam a centralizar conteúdo dentro do elemento pai*/
+    padding: 10px;
+     /* define um preenchimento em torno do conteúdo do elemento*/
+    min-height: 100vh;
+     /*define a altura mínima do elemento em relação à altura da janela de visualização*/
+
+
+animation: bgcolor infinite 5s;
+ /* Aplica uma animação chamada "bgcolor" ao fundo do corpo */
+
+}
+
+/* Estilos para elementos com classe "w50" */
+.w50{
+    width: 51%;
+     /* define a largura do elemento em relação à largura disponível do elemento pai.*/
+    float: left; 
+    /*é usada para controlar o posicionamento do elemento em relação aos outros elementos na página.*/
+    padding-right: 15px;
+     /* define um preenchimento em torno do conteúdo do elemento*/
+}
+/* Estilos para elementos com classe "box" */
+.box{
+    display: flex;
+     /*é usada para definir o tipo de exibição de um elemento. */
+width: 930px; 
+/* define a largura do elemento em relação à largura disponível do elemento pai.*/
+
+}
+/* Estilos para elementos com classe "img-box" (uma parte do formulário) */
+.img-box{
+    background-color: rgba(255, 255, 255, 0.5); 
+    /* Define uma cor de fundo com transparência */
+    width: 50%;
+     /* define a largura do elemento em relação à largura disponível do elemento pai.*/
+    display: flex;
+     /*é usada para definir o tipo de exibição de um elemento. */
+    align-items: center;
+     /* é usada para controlar o alinhamento vertical dos elementos filhos dentro de um contêiner flexível.*/
+    padding: 20px;
+     /* define um preenchimento em torno do conteúdo do elemento*/
+    border-radius: 20px 0 0 20px; 
+    /*Define um raio de borda arredondada no canto superior esquerdo*/
+    
+
+}
+
+/* Estilos para imagens dentro de elementos com classe "img-box" */
+.img-box img{
+    width: 100%; 
+    /* define a largura do elemento em relação à largura disponível do elemento pai.*/
+}
+/* Estilos para elementos com classe "form-box" (outra parte do formulário) */
+.form-box{
+    
+    background-color: rgba(255, 255, 255, 0.4);
+     /* Define uma cor de fundo com transparência */
+    backdrop-filter: blur(40px);
+     /* Aplica um desfoque no fundo */
+    padding: 30px 40px;
+     /* define um preenchimento em torno do conteúdo do elemento*/
+    width: 50%;
+     /* define a largura do elemento em relação à largura disponível do elemento pai.*/
+    border-radius: 0 20px 20px 0;
+    /* Define um raio de borda arredondada no canto superior direito */
+}
+/* Estilos para cabeçalhos H2 dentro de elementos com classe "form-box" */
+.form-box h2{
+    font-size: 30px; 
+    /*controla o tamanho da fonte usada para exibir o texto em um elemento html.*/
+}
+/* Estilos para parágrafos dentro de elementos com classe "form-box" */
+.form-box p{
+    font-weight: bold;
+     /*é usada para definir a espessura da fonte, tornando o texto mais ousado ou mais fino.*/
+    color: #3d3d3d;
+     /*define a cor do texto*/
+}
+/* Estilos para links dentro de parágrafos e dentro de elementos com classe "form-box" */
+.form-box p a{
+    color: #ff008a; 
+    /*define a cor do texto*/
+    text-decoration: none; 
+    /* é usada para remover a decoração de texto padrão de um elemento de texto*/
+}
+/* Estilos para formulários dentro de elementos com classe "form-box" */
+.form-box form{
+    margin: 1px 0;
+     /* Define a fonte padrão para o documento */
+
+}
+/* Estilos para grupos de entrada de formulário */
+form .input-group{
+    margin-bottom: 15px; 
+    /*define a margem inferior de um elemento*/
+}
+/* Estilos para rótulos dentro de grupos de entrada de formulário */
+form .input-group label{
+    color: #3d3d3d; 
+    /*define a cor do texto*/
+    font-weight: bold;
+     /*é usada para definir a espessura (ou peso) da fonte do texto.*/
+    display: block;
+    /*controla o tipo de exibição do elemento html*/
+    margin-bottom: 0.5px;
+     /*define a margem inferior de um elemento*/
+}
+/* Estilos para campos de entrada de formulário */
+form .input-group input{
+    width: 93%;
+     /* define a largura do elemento em relação à largura disponível do elemento pai.*/
+    height: 1px;
+     /*Define a altura do elemento como 1 pixel*/
+    background-color: rgba(255, 255, 255, 0.32);
+     /*Define a cor de fundo do elemento*/
+    border-radius: 20px;
+     /*Define um raio de borda de 20 pixels*/
+    outline: none;
+     /*Remove a borda de destaque padrão que geralmente aparece ao focar no elemento.*/
+    border: 2px solid transparent;
+     /*Define uma borda de 2 pixels de largura e sólida (solid) no elemento.*/
+    padding: 15px; 
+    /* define um preenchimento em torno do conteúdo do elemento*/
+    font-size: 15px; 
+    /* controla o tamanho da fonte utilizada para renderizar o texto dentro de um elemento html.*/
+    color: #616161;
+     /*define a cor do texto*/
+    transition: all 0.4s ease;
+     /*é usada para controlar a transição suave entre estados de um elemento quando ocorrem mudanças em suas propriedades*/
+}
+/* Estilos quando o campo de entrada de formulário está em foco (quando clicado) */
+form .input-group input:focus{
+    border-color: #ff008a;
+    /*defina a cor da borda*/
+}
+/* Estilos para botões dentro de grupos de entrada de formulário */
+form .input-group button{
+    width: 100%; 
+     /*Define a largura do elemento como 100% da largura disponível do elemento pai. Isso faz com que o elemento ocupe toda a largura do contêiner ao qual ele pertence.*/
+    height: 47px;
+     /*Define a altura do elemento como 47 pixels. Isso controla a altura do elemento.*/
+    background: #ff008a;
+    /*Define a cor de fundo do elemento como "#ff008a". O elemento terá um fundo rosa/rosado.*/
+    border-radius: 20px;
+    /*Define um raio de borda de 20 pixels para arredondar os cantos do elemento. Isso cria cantos arredondados, tornando o elemento mais estilizado.*/
+    outline: none;
+    /*Remove a borda de destaque padrão que geralmente aparece ao focar no elemento.*/
+    margin-top: 15px;
+    /*Adiciona uma margem superior de 15 pixels ao elemento. Isso cria espaço entre o elemento e os elementos acima dele. */
+    color: white;
+    /*Define a cor do texto dentro do elemento como branco. O texto no elemento será exibido em branco.*/
+    cursor: pointer;
+    /*Define o cursor do mouse para o ícone de mão quando ele passa sobre o elemento. Isso indica que o elemento é clicável, como um botão.*/
+    font-size: 16px;
+    /*Define o tamanho da fonte do texto dentro do elemento como 16 pixels. Isso controla o tamanho do texto exibido no elemento.*/
+     /* Estilos para o botão, como largura, altura, cor de fundo, etc. */
+}
+/* Define a animação "iniciar" com diferentes estados-chave (keyframes) */
+@keyframes iniciar{
+    20%{
+        top: -10%; 
+        /* define a posição vertical do elemento, deslocando-o para cima 10% da altura do seu contêiner pai*/
+        opacity: 0; 
+        /* define a opacidade do elemento como 0, tornando-o completamente transparente e invisível.*/
+        pointer-events: none;
+         /*significa que o elemento não responderá a eventos do mouse, como cliques ou passagens do mouse. */
+}
+100%{
+top: 50%;
+ /*define a posição vertical do elemento como 50%*/
+opacity: 100%; 
+/*define a opacidade do elemento como 100%, tornando-o completamente visível.*/
+pointer-events: all; 
+/* permite que o elemento responda a eventos do mouse, como cliques e passagens do mouse.*/
+}
+}
+/* Define a animação "bgcolor" com diferentes estados-chave (keyframes) */
+@keyframes bgcolor{
+    0%{
+        background: #9c1466; /*define a cor de fundo da pagina*/
+    }
+    20%{
+        background: #8a3465; /*define a cor de fundo da pagina*/
+    }
+
+40%{
+    background: #1dccd8; /*define a cor de fundo da pagina*/
+}
+
+
+60%{
+    background: #92155c; /*define a cor de fundo da pagina*/
+}
+
+60%{
+    background: #3699b8; /*define a cor de fundo da pagina*/
+}
+
+
+
+80%{
+    background: #b61e74; /*define a cor de fundo da pagina*/
+}
+
+100%{
+    background: #48a1b1; /*define a cor de fundo da pagina*/
+}
+}
